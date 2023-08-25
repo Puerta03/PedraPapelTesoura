@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+ul#jogadorEscolha li a:hover, 
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+}
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+    opacity: 0.5;
+}
+
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black}
+
+#titulo {
+    background-color: #FE5F55;
+    font-family: 'Creepster', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#jogadorNome {
+    color: #efc88b;
+}
+
+#computadorNome {
+    color: #efc88b;
+}
+
+#jogadorPontos {
+    color: #efc88b;
+}
+
+#computadorPontos {
+    color: #efc88b;
+}
+
+#versus {
+    color: #efc88b;
+    margin: 0 70px;
+}
+
+#placar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Creepster', cursive;
+    font-size: 20px;
+}
+
+img {
+    width: 200px;
+}
+
+#mensagem {
+    color:#FE5F55;
+    font-family: 'Creepster', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
